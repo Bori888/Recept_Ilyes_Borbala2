@@ -1,7 +1,7 @@
 export function letrehozRecept(lista) {
     let txt = "";
     lista.forEach((elem, index) => {
-      txt += `<div class="card" style="width:800px">
+      txt += `<div class="card" >
           <div class="card-body">
             <h4 class="card-title">${elem.nev}</h4>
             <img class="card-img-top" src="${elem.kep}" alt="Card image">
