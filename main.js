@@ -56,7 +56,7 @@ function rendezes(ADATOK) {
 }
 
 function torolesemeny(){
-    const torolELEM=$(".torol")
+    const torolELEM=$(".recept")
     torolELEM.on("click", function(event){
       let index = event.target.id;
       const LISTA = torol(ADATOK, index)
